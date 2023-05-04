@@ -1,0 +1,31 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 2px solid #ccc;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label[type=file]{
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #07bd16;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[input=submit]:hover {
+    background-color: #1fa01a;
+}

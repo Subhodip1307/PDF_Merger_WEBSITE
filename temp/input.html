@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/input.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF-Merger</title>
+</head>
+<body>
+    <marquee style="color: red;"> Made By Subhodip</marquee>
+    <div class="container">
+        <h1>PDF MERGER</h1>
+        <form method="post" action="{% url 'done' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div>
+            <label for="pdf1"><h3>Choose Pdf File 1:</h3></label>
+            <input type="file" name="pdf1" id="pdf1"><br><br>
+            </div>
+            <div>
+            <label for="pdf2"><h3>Choose Pdf File 2:</h3></label>
+            <input type="file" name="pdf2" id="pdf2"><br><br>
+            </div>
+            <div>
+            <input type="submit" name="submit"><br><br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
