@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-s$g*%xn$=&=kya85f*&xzr8@$zvh)fxc0=pzbmjtn^aan-7d!4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','bikini-editor-equivalent-stewart.trycloudflare.com']
-CSRF_TRUSTED_ORIGINS=['https://bikini-editor-equivalent-stewart.trycloudflare.com']
+# ALLOWED_HOSTS = ['localhost']
+# CSRF_TRUSTED_ORIGINS=['']
 
 # Application definition
 
